@@ -69,3 +69,34 @@ p{
     background: black;
     color: white;
 }
+.row {
+    flex: 25%;
+    max-height: 25%;
+    padding: 0 4px;
+}
+  
+.row img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.projects:hover{
+    background-color: black;
+}
+#download{
+    background-color: navy;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 8px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+#download:hover {
+    opacity: 0.7;
+}
+#dennis{
+    padding-top: 5px;
+}
